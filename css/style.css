@@ -1416,6 +1416,74 @@ h1 {
   padding-right:0;
 }
 
+.pivott-blog a h5 {
+    margin-top: 1px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.pivott-blog-date {
+   font-size: 15px;
+    font-weight: 500;
+    color: #505050;
+    margin-top: 10px;
+}
+.pivott-blog p {
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.pivott-blog-read {
+    color: #00c0a7;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.pivott-blog-read i{
+    margin-left:10px;
+}
+.pivott-blog .pivott-box-blog {
+    margin-bottom: 25px;
+}
+.pivott-blog .pivott-box-blog:hover a h5 {
+    color: #00c0a7;
+    transition: 0.5s;
+}
+
+/*blog-details*/
+
+.pivote-blog-box img {
+    width: 100%;
+}
+.pivott-blog-detail {
+    margin-top: 130px;
+}
+.pivott-blog-detail button {
+   padding: 0;
+   font-weight:500;
+    color: #333 !important;
+}
+.pivott-blog-detail .card-header {
+/*    margin-bottom: 20px;*/
+}
+.pivott-blog-detail button:hover {
+    text-decoration: none;
+}
+.pivott-blog-detail .btn-link.focus, .btn-link:focus{
+      text-decoration: 0;
+}
+.pivott-blog .pivott-box-blog h5 {
+    line-height: 22px;
+}
+
+
+
+
+
 
 
 
